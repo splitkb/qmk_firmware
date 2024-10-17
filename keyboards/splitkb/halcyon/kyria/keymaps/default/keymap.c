@@ -241,7 +241,7 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
         } else {
             tap_code(KC_VOLD);
         }
-    } else if (index == 1) {
+    } else if (index == 2) {
         // Page up/Page down
         if (clockwise) {
             tap_code(KC_PGDN);
